@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* text-align: center;
+  align-items: center; */
+}
+section {
+  padding: 0rem 6%;
+}
+
+.navbar-brand img {
+  height: 4rem;
+}
+.header .nav-item {
+  font-weight: bolder;
+  margin-left: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .fa-bars {
+  font-size: 1.5rem;
+  padding-left: 10rem;
+}
+.cr-img {
+  height: 30rem;
+}
+
+.carousel-caption {
+  top: 5rem;
+  left: 0;
+  margin-left: 0;
+  padding-left: 0;
+  color: #ffffff;
+}
+.carousel-caption > h1,
+.carousel-caption > p
+ {
+  margin-left: 6rem;
+  text-align: start;
+  color: #ffffff;
+}
+.carousel-btn {
+  margin-left: 6rem;
+  text-align: start;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  text-align: start;
+  right: 29.8rem;
+}
+.lg-btn {
+  font-weight: bold;
+  border-radius: 0;
+  width: 13rem;
+  margin-bottom: 2px;
+}
+.sm-btn {
+  height: 2.9rem;
+  border-radius: 0;
+}
+/* footer */
+.footer .box-container {
+  margin-top: 0;
+  padding-top: 0;
+  padding: 0rem 6%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  gap: 1rem;
+  color: #ffffff;
+  background: #000;
+  text-align: left;
+}
+
+.footer .box-container .box h3 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 0.2rem 0;
+  color: #f0eeee;
+  text-align: left;
+}
+
+.footer .box-container .box a {
+  display: block;
+  font-size: 0.8rem;
+  color: #c2c2c2;
+  text-decoration: none;
+  text-align: left;
+}
+.footer .box-container .box-2 a {
+  display: block;
+  font-size: 0.8rem;
+  color: #c2c2c2;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 8rem;
+}
+.footer .box-container .box-2 h3 {
+  font-size: 1.3rem;
+  text-align: left;
+  margin-left: 8rem;
+}
+
+.footer .box-container .box-3 a {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-decoration: none;
+  line-height: 3rem;
+  color: #c2c2c2;
+}
+.footer .box-container .box-3 {
+  margin-bottom: 13rem;
+  text-align: center;
+}
+
+/* home section cards starts here */
+.card-1 .card {
+  background-color: #000;
+  color: #ffffff;
+}
+.card-1 .text {
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+.card-2 .card {
+  background-color: #ffffff;
+  color: #000;
+}
+.card-4{
+  margin-top: 8rem;
+}
+
+.tarea-btn{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  
+}
+.tarea-btn button{
+  background: #000;
+  color: #ffffff;
+}
+.tare-text{
+  margin-left: 15rem;
+  text-align: left;
+}
+.card-5{
+  margin-top: 16rem;
+}
+.card-top-7{
+  padding: 6rem 2rem;
+  
+}
+.card-bottom-7{
+  padding: 1rem 2rem;
+
+}
+
+
+/* home section cards ends here */
+#vr {
+  width: 2px;
+  background-color: silver;
+}
+
+/* BorderLines */
+.border-lines{
+  border-right: 1px solid grey;
+  height: 30px;
+}
+.border-lines-dark{
+  border-right: 3px solid grey;
+  height: 30px;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+p{
+  font-size: 13px;
+  color: grey;
+}
+
+.card {
+  border-bottom: 0px ;
+  border-top: 0px;
+}
+/* .pattern-vertical-lines-xl { */
