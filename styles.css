@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,7 +21,7 @@ section {
 }
 .header .nav-item {
   font-weight: bolder;
-  margin-left: 5rem;
+  margin-left: 10rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,8 +42,7 @@ section {
   color: #ffffff;
 }
 .carousel-caption > h1,
-.carousel-caption > p
- {
+.carousel-caption > p {
   margin-left: 6rem;
   text-align: start;
   color: #ffffff;
@@ -136,36 +135,32 @@ section {
   background-color: #ffffff;
   color: #000;
 }
-.card-4{
+.card-4 {
   margin-top: 8rem;
 }
 
-.tarea-btn{
+.tarea-btn {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 4rem;
-  
 }
-.tarea-btn button{
+.tarea-btn button {
   background: #000;
   color: #ffffff;
 }
-.tare-text{
+.tare-text {
   margin-left: 15rem;
   text-align: left;
 }
-.card-5{
+.card-5 {
   margin-top: 16rem;
 }
-.card-top-7{
+.card-top-7 {
   padding: 6rem 2rem;
-  
 }
-.card-bottom-7{
+.card-bottom-7 {
   padding: 1rem 2rem;
-
 }
-
 
 /* home section cards ends here */
 #vr {
@@ -174,26 +169,164 @@ section {
 }
 
 /* BorderLines */
-.border-lines{
+.border-lines {
   border-right: 1px solid grey;
   height: 30px;
 }
-.border-lines-dark{
+.border-lines-dark {
   border-right: 3px solid grey;
   height: 30px;
 }
 
-.flex-center{
+.flex-center {
   display: flex;
   justify-content: center;
 }
-p{
+p {
   font-size: 13px;
   color: grey;
 }
 
 .card {
-  border-bottom: 0px ;
+  border-bottom: 0px;
   border-top: 0px;
 }
 /* .pattern-vertical-lines-xl { */
+
+/* Media queries at 1260px */
+@media (max-width: 1260px) {
+  .header .nav-item {
+    font-weight: bolder;
+    margin-left: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer .box-container .box-2 a {
+    display: block;
+    font-size: 0.8rem;
+    color: #c2c2c2;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 5rem;
+  }
+  .footer .box-container .box-2 h3 {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 5rem;
+  }
+}
+/* Media queries at 991px */
+@media (max-width: 991px) {
+  html {
+    font-size: 65%;
+  }
+  .header {
+    padding: 1rem;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+  .icon-bars {
+    display: none;
+  }
+  .navbar-brand img {
+    height: 6rem;
+  }
+
+  .footer .box-container .box-2 a {
+    display: block;
+    font-size: 0.8rem;
+    color: #c2c2c2;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 6rem;
+  }
+  .footer .box-container .box-2 h3 {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 6rem;
+  }
+}
+
+/* Media queries at 768px */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .navbar-brand img {
+    height: 6rem;
+  }
+  .carousel-caption {
+    top: 5rem;
+    left: 0;
+    margin-left: 0;
+    padding-left: 0;
+    color: #ffffff;
+  }
+  .carousel-caption > h1,
+  .carousel-caption > p {
+    /* margin-left: 2rem; */
+    text-align: center;
+    color: #ffffff;
+  }
+  .carousel-btn {
+    /* margin-left: 1rem; */
+    text-align: center;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    text-align: start;
+    /* right: 29.8rem; */
+  }
+  .lg-btn {
+    font-weight: bold;
+    border-radius: 0;
+    width: 13rem;
+    margin-bottom: 2px;
+  }
+  .sm-btn {
+    height: 2.9rem;
+    border-radius: 0;
+  }
+  .footer .box-container .box-2 a {
+    display: block;
+    font-size: 0.8rem;
+    color: #c2c2c2;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 6rem;
+  }
+  .footer .box-container .box-2 h3 {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 6rem;
+  }
+}
+
+/* Media queries at 460px */
+
+@media (max-width: 460px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar-brand img {
+    height: 8rem;
+  }
+  .footer .box-container .box-2 a {
+    display: block;
+    font-size: 0.8rem;
+    color: #c2c2c2;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 2rem;
+  }
+  .footer .box-container .box-2 h3 {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 2rem;
+  }
+}
